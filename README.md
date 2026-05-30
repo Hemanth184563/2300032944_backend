@@ -4,40 +4,9 @@ This repository contains the comprehensive, production-grade backend solutions f
 
 ---
 
-## 📂 Project Directory Structure
-
-```text
-├── logging_middleware/               # Stage 1 Validation Middleware
-│   ├── src/
-│   │   ├── middleware/               # Log validation logic
-│   │   └── server.js                 # Express log controller
-│   └── package.json
-│
-├── vehicle_scheduling/               # Stage 6 Resource Allocation (Standard)
-│   ├── src/
-│   │   ├── repository/               # API Data Fetching with Bearer headers
-│   │   ├── utils/                    # Sequential Knapsack DP Solver
-│   │   └── server.js
-│   └── package.json
-│
-├── vehicle_maintence_scheduler/      # Stage 6 Resource Allocation (Duplicate variant)
-│   ├── src/
-│   │   ├── repository/               # Identical robust knapsack mapping
-│   │   └── server.js
-│   └── package.json
-│
-├── notification_app_be/              # Stage 6 Priority Inbox stream processor
-│   ├── priorityQueue.js              # Custom Bounded Min-Heap
-│   ├── runner.js                     # Priority fetch controller
-│   └── package.json
-│
-├── notification_system_design.md    # Master Architecture Document (Stages 1-6)
-└── .gitignore                        # Global exclusions file
-```
-
 ---
 
-## 🛠️ Core Services Breakdown
+## Core Services Breakdown
 
 ### 1. Logging Middleware (`logging_middleware/`)
 Exposes `POST /api/logs` to validate and persist payload requests strictly separating scopes:
@@ -64,7 +33,7 @@ A complete, master-level engineering documentation answering:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * [Node.js](https://nodejs.org/) (v18.0.0 or higher recommended)
@@ -94,5 +63,5 @@ GET http://localhost:3001/api/scheduler/run
 
 ---
 
-## 🔒 Anonymity Compliance
+
 This repository is configured to comply strictly with the evaluation anonymity guidelines. No candidate names, email addresses, or personal references are included in any documentation, commit histories, or code directories.
