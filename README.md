@@ -2,9 +2,6 @@
 
 This repository contains the comprehensive, production-grade backend solutions for the track evaluation. All services are implemented in Node.js, prioritizing strict architectural separation, computational optimization, and complete decoupling for reliability.
 
----
-
----
 
 ## Core Services Breakdown
 
@@ -31,7 +28,6 @@ A complete, master-level engineering documentation answering:
 * **Stage 5:** Async system decoupling, message queues, and Transactional Outbox pattern design with TypeScript pseudocode.
 * **Stage 6:** Priority inbox heap heapify mechanics.
 
----
 
 ## Getting Started
 
@@ -40,28 +36,28 @@ A complete, master-level engineering documentation answering:
 * Standard package dependencies are local.
 
 ### Configuration
-1. Open the `.env` file inside the service directories:
-   * `vehicle_scheduling/.env`
-   * `notification_app_be/.env`
+1. Open the .env file inside the service directories:
+   * vehicle_scheduling/.env
+   * notification_app_be/.env
 2. Insert your active authorization JWT access token:
-   ```ini
+
    ACCESS_TOKEN=eyJhbGciOiJIUzI1...
-   ```
+   
 
 ### Execution (Example: Vehicle Scheduling)
 To start the scheduling optimization service on port `3001`:
-```bash
+bash
 cd vehicle_scheduling
 npm install
 npm start
-```
+
 Use **Postman** to execute:
-```http
+http
 GET http://localhost:3001/api/scheduler/run
-```
+
 *(The server will automatically fetch data from the protected host using your token and return the optimized schedules).*
 
----
+
 
 
 This repository is configured to comply strictly with the evaluation anonymity guidelines. No candidate names, email addresses, or personal references are included in any documentation, commit histories, or code directories.
