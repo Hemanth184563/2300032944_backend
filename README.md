@@ -61,3 +61,15 @@ GET http://localhost:3001/api/scheduler/run
 
 
 This repository is configured to comply strictly with the evaluation anonymity guidelines. No candidate names, email addresses, or personal references are included in any documentation, commit histories, or code directories.
+
+
+<img width="1439" height="860" alt="image" src="https://github.com/user-attachments/assets/50be05c5-109c-4864-bf52-e7e47d156b74" />
+
+<img width="1419" height="867" alt="image" src="https://github.com/user-attachments/assets/d226ce23-10d3-43bf-a471-c2bba5c48900" />
+
+
+<img width="1439" height="860" alt="image" src="https://github.com/user-attachments/assets/54183ee0-95d3-4971-b50e-9184b5e94b47" />
+
+
+<img width="1439" height="860" alt="image" src="https://github.com/user-attachments/assets/50be05c5-109c-4864-bf52-e7e47d156b74" />
+
